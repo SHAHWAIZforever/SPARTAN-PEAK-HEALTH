@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPARTAN : Peak Health</title>
+    
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agu+Display&family=Anton&family=BenchNine:wght@300;400;700&family=Fjalla+One&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Love+Light&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nova+Slim&family=Oswald:wght@200..700&family=Passion+One:wght@400;700;900&family=Young+Serif&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+<link rel="stylesheet" href="normal.css">
+<link rel="stylesheet" href="mobilee.css">
+<style>
+
+
+
+/* contactend */
+    </style>
+</head>
+<body>
+  <div class="pg1">
+    <header><img src="logo.png" alt="" id="logo" ><h1>SPARTAN : PEAK HEALTH</h1><br><h2>By
+     <b id="shahwaiz"> SHAHWAIZ</b></h2>
+        
+    </header><br><br><br><br><br><br><br>
+  
+  <h1 id="headbmi"><b>BMI CALCULATOR</b></h1>
+    <P><b>Note: </b>BMI (Body Mass Index) helps check if someone has a healthy weight for their height. While BMI is a good tool for most people who don’t exercise often or have a more sedentary lifestyle, it may not be accurate for athletes with very low body fat (below 15%) since muscle weighs more than fat.</P>
+<!--  -->
+   <div class="converth"> <h3 id="convert">CONVERT Height Feet to Meters</h3>
+    <input type="text"placeholder="Ft" id="ft-el"><input type="text" value="0"  placeholder="In" id="in-el">
+    <button id="calculate">Calculate</button>
+    <h3 ><span id="fttom">---</span>m</h3>
+    <button id="insbmi">INSERT TO BMI</button>
+  </div>
+ 
+<!--  -->
+    <h1>"You fall in category"</h1>
+   <h1> <span id="message-el"></span></h1>
+    <h1>Your BMI: </h1>
+    <h1 id="bmi-el"><b>---</b></h1>
+   <div class="inputs"><input type="text" id="weightkg" placeholder="Weight in Kilograms">
+    <input type="text" id="heightm"placeholder="Height in Meters"></div>
+    <button id="bmi">
+        Calculate <b>BMI</b>
+    </button>
+    <h1><b>"IDEAL WEIGHT RANGE"</b></h1>
+    <h2 id="idealll"><span id="leastweight">___</span>KG - <span id="mostweight">___</span>KG</h2>
+    <br><br><hr> </div>
+<p>
+<h2> BMI Categories: </h2> <br>
+    
+    Underweight: BMI < 18.5 <br>
+    Normal weight: 18.5 ≤ BMI < 24.9 <br>
+    Overweight: 25 ≤ BMI < 29.9 <br>
+    Obesity Class 1 (Moderate): 30 ≤ BMI < 34.9 <br>
+    Obesity Class 2 (Severe): 35 ≤ BMI < 39.9  <br>
+    Obesity Class 3 (Very severe or morbidly obese): BMI ≥ 40 <br>
+    These categories help assess whether an individual is underweight, healthy, overweight, or obese based on their BMI value.</p>
+    
+    <!-- BMI DONE -->
+     <HR></HR>
+     <h1 id="maintainancehead">MAINTAINANCE CALORIES CALCULATOR</h1><hr>
+     <h1 id="maintain"><b>Maintainance Calories: </b></h1>
+     <input typr="text" id="WFM" placeholder="Weight in Kilograms"> <br>
+     <label>
+        <input type="radio" name="option" id="sed">
+        SEDENTARY LIFE
+    </label>
+      <label>
+        <input type="radio" name="option" id="lit" >
+        LIGHTLY ACTIVE
+      </label>
+      <label>
+        <input type="radio" name="option" id="mod" >
+        MODERATELY ACTIVE
+      </label>
+      <label >
+        <input type="radio" name="option" id="very">
+        VERY ACTIVE
+      </label>
+      <label >
+        <input type="radio" name="option" id="toom">
+        EXTREMELY ACTIVE
+      </label>
+      <label >
+        <input type="radio" name="option" id="marine">
+        ATHLETE
+      </label>
+      <HR></HR>
+     
+     <p>Maintenance calories refer to the number of calories your body needs to consume in a day to maintain your current weight, without gaining or losing. Achieving a balance between calories consumed and calories burned is key to maintaining weight. Age actually doesn't matter much when we calculate <B>MAINTAINANCE CALORIES</B> cause weight itself needs calories. As you get older your activity level can decrease so adjust accordingly.</p>
+          <br><br>
+        
+      
+        <hr>
+
+        <table border="1">
+            <tr>
+              <th><h2>Sedentary Lifestyle</h2></th>
+              <td>
+                <p><strong>Description:</strong> Little to no physical activity. Most of the time spent sitting or lying down.</p>
+                <p><strong>Examples:</strong></p>
+                <ul>
+                  <li>Sitting at a desk for work or school all day.</li>
+                  <li>Watching TV for long periods.</li>
+                  <li>Reading or using a computer for hours without physical movement.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <th><h2>Lightly Active Lifestyle</h2></th>
+              <td>
+                <p><strong>Description:</strong> Some light physical activity, but still a majority of the day spent inactive or with minimal movement.</p>
+                <p><strong>Examples:</strong></p>
+                <ul>
+                  <li>Light walking (e.g., walking around the house or office).</li>
+                  <li>Short strolls or errands.</li>
+                  <li>Casual cycling or recreational sports once or twice a week.</li>
+                  <li><strong>Housewives:</strong> Performing household chores like light cleaning, cooking, and organizing.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <th><h2>Moderately Active Lifestyle</h2></th>
+              <td>
+                <p><strong>Description:</strong> Regular exercise, moderate-intensity activities, or more frequent movement throughout the day.</p>
+                <p><strong>Examples:</strong></p>
+                <ul>
+                  <li>Regular walks, jogging, or light fitness routines.</li>
+                  <li>Participating in moderate-intensity exercise 3-5 times a week.</li>
+                  <li>HIIT (High-Intensity Interval Training) workouts or going to the gym regularly.</li>
+                  <li>Daily movement, like walking to work or taking the stairs.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <th><h2>Very Active Lifestyle</h2></th>
+              <td>
+                <p><strong>Description:</strong> High levels of physical activity, often involving rigorous exercise or manual labor.</p>
+                <p><strong>Examples:</strong></p>
+                <ul>
+                  <li>Intense workouts like running, swimming, or cycling 6-7 days a week.</li>
+                  <li>Participating in competitive sports or physically demanding jobs (e.g., construction work).</li>
+                  <li>Weight training or heavy lifting sessions.</li>
+                  <li><strong>Athletes:</strong> Professional athletes training several hours a day, including sports practice and physical conditioning.</li>
+                </ul>
+              </td>
+            </tr>
+            <hr>
+            <tr>
+              <th><h2>Extremely Active Lifestyle</h2></th>
+              <td>
+                <p><strong>Description:</strong> physical activity, such as  daily exercise,  athletic training, or  physical labor.</p>
+                <p><strong>Examples:</strong></p>
+                <ul>
+                  <li>Professional athletes training for Few hours a day.</li>
+                  <li>Bodybuilding Athlete,Tenis Player</li>
+                  <li>Jobs that require physical exertion,Construction Worker</li>
+                </ul>
+              </td>
+            </tr>
+            <th><h2>ATHLETE</h2></th>
+            <td>
+              <p><strong>Description:</strong> Peak physical activity, such as intense daily exercise, rigorous athletic training, or extreme physical labor.</p>
+              <p><strong>Examples:</strong></p>
+              <ul>
+                <li>Professional athletes training for several hours a day.</li>
+                <li>CrossFit, endurance training, or high-intensity interval training (HIIT) multiple times per week.</li>
+                <li>Jobs that require intense physical exertion, like firefighting or military service.</li>
+              </ul>
+            </td>
+          </tr>
+          </table><hr>
+          <p id="noteabcal"><b>NOTE: </b> <br>
+            Maintenance calories are estimates. Track your weight after a week and adjust your caloric intake by adding or subtracting 150 calories based on your results.
+          </p><hr>
+          
+          <div class="contact-container">
+            <h2>Consultation for Weight Loss or Weight Gain</h2>
+    
+            <div class="contact-info">
+                <i class="fab fa-whatsapp whatsapp"></i>
+                <a href="https://wa.me/923134574191" target="_blank">03134574191</a>
+            </div>
+    
+            <div class="contact-info">
+                <i class="fab fa-instagram instagram"></i>
+                <a href="https://www.instagram.com/shahwaiz_loves_tigershroff/" target="_blank">@shahwaiz_loves_tigershroff</a>
+            </div>
+    
+            <div class="contact-info">
+                <i class="fas fa-envelope email"></i>
+                <a href="mailto:shahwaiztiger12@gmail.com" target="_blank">shahwaiztiger12@gmail.com</a>
+            </div>
+        </div>
+       
+
+      
+     <!-- HEIGHT IN METER SCRIPT -->
+      <script>
+    let FT=[]
+    let IN=[]
+    let ftEl=document.getElementById('ft-el')
+    let inEl=document.getElementById('in-el')
+    let hebtn=document.getElementById('calculate')
+    let ANS=document.getElementById('fttom')
+    let unit='m'
+   
+    hebtn.addEventListener('click',function(){
+        
+        
+if(inEl.value>0){
+    let ftvalue=parseFloat(ftEl.value)
+        let invalue=parseFloat(inEl.value)
+        
+    heightroundedm=null
+    IN.push(invalue)
+    FT.push(ftvalue)
+    
+    let inby12=IN/12;
+    let sum=inby12+ftvalue
+    let totalm=sum*0.3048
+    let totalmunit=totalm.toFixed(2)
+    let totalheight=totalmunit
+    
+    ANS.textContent=totalheight;
+   
+    FT=[]
+    IN=[]
+     rendering()
+
+    
+}else{
+
+    FT.push(ftEl.value)
+    let height=''
+    height=FT*0.3048
+    let heightrounded=height.toFixed(2)
+     let heightroundedm=heightrounded
+
+    
+   FT=[]
+   IN=[]
+   ANS.textContent=heightrounded
+   
+rendering()
+}})
+
+let INSERT=document.getElementById('insbmi')
+INSERT.addEventListener('click',function(){
+  
+hE.value=ANS.textContent
+  
+})
+ function  rendering(){}
+</script>
+<!-- HEIGHT IN METER SCRIPT END>>>>>>>>>>>>>>>>>>>>>>>>>>>-->
+ <!-- BMI START -->
+ <script>
+  let bmI=document.getElementById('bmi-el')
+  let wE=document.getElementById('weightkg')
+  let hE=document.getElementById('heightm')
+  let bmibTn=document.getElementById('bmi')
+  messageEl=document.getElementById('message-el')
+  let height=[]
+  let weight=[]
+  let message=''
+  bmibTn.addEventListener('click',function(){
+    let LEASTW=document.getElementById('leastweight')
+    let MOSTW=document.getElementById('mostweight')
+  
+  height.push(hE.value)
+  hE.value='';
+  console.log(height)
+  weight.push(wE.value)
+  wE.value='';
+  console.log(weight)
+  let heightsq=height*height;
+  let bmiv=weight/heightsq
+  let roundedbmiv=bmiv.toFixed(1)
+  console.log(bmiv)
+  bmI.innerHTML=roundedbmiv;
+  let mostwrounded=heightsq*24.9
+  let MOOST=mostwrounded.toFixed(0)
+   
+  let leastwrounded=heightsq*18.5
+  let LEEAST=leastwrounded.toFixed(0)
+
+  MOSTW.innerHTML=MOOST;
+  LEASTW.innerHTML=LEEAST;
+
+ height=[]
+ weight=[]
+ if(bmiv< 18.5){
+  message='YOU ARE UNDERWEIGHT!'
+ messageEl.style.background='blue';
+
+ }else if(bmiv ===18.5|| bmiv < 24.9){
+  message='YOU ARE IN NORMAL WEIGHT CATEGORY'
+  messageEl.style.background='green';
+ }else if(bmiv===25|| bmiv<29.9){
+  message='YOU ARE OVERWEIGHT'
+  messageEl.style.background='yellow';
+ }else if(bmiv===30||bmiv<34.9){
+  message='OVERWEIGHT'
+  messageEl.style.background='orange';
+ }else if(bmiv===35||bmiv<39.9){
+  message='SEVERE OBESTY (DANGERZONE)'
+  messageEl.style.background='red';
+ }else if(bmiv>40){
+  message='MORBIDLY OBESE SEEK MEDICAL HELP'
+  messageEl.style.background='purple';
+ } 
+ 
+  messageEl.innerHTML=message;
+  
+  })
+  </script>
+  <!-- BMI END>>>>>>>>>>>>>>>>>>>>> -->
+ <!-- MAINTAINANCE CALORIES SCRIPT -->
+ <script>
+  let WFMM=[]
+  let weightfm=document.getElementById('WFM')
+  let sEd=document.getElementById('sed')
+  let lIt=document.getElementById('lit')
+  let mOd=document.getElementById('mod')
+  let veRy=document.getElementById('very')
+  let toOm=document.getElementById('toom')
+  let marIne=document.getElementById('marine')
+  let main=document.getElementById('maintain')
+  sEd.addEventListener('click',function(){
+   WFMM.push(weightfm.value)
+   let sedentary=WFMM*2.2*13;
+   let SEDENTARY=sedentary.toFixed(0)
+    main.textContent='Maintainance Calories: '+SEDENTARY
+    WFMM=[]
+   })
+   lIt.addEventListener('click',function(){
+   WFMM.push(weightfm.value)
+   let light=WFMM*2.2*14;
+   let LIGHT=light.toFixed(0)
+    main.textContent='Maintainance Calories: '+LIGHT
+    WFMM=[]   })
+   mOd.addEventListener('click',function(){
+   WFMM.push(weightfm.value)
+   let moderate=WFMM*2.2*15;
+   let MODERATE=moderate.toFixed(0)
+    main.textContent='Maintainance Calories: '+MODERATE
+    WFMM=[]       })
+  veRy.addEventListener('click',function(){
+   WFMM.push(weightfm.value)
+   let veract=WFMM*2.2*16;
+   let VERACT=veract.toFixed(0)
+    main.textContent='Maintainance Calories: '+VERACT
+    WFMM=[]
+   })
+   toOm.addEventListener('click',function(){
+   WFMM.push(weightfm.value)
+   let extreme=WFMM*2.2*17;
+   let EXTREME=extreme.toFixed(0)
+   
+    main.textContent='Maintainance Calories: '+EXTREME
+
+    WFMM=[]        })
+
+    marIne.addEventListener('click',function(){
+   WFMM.push(weightfm.value)
+   let marinee=WFMM*2.2*20;
+   let MARINE=marinee.toFixed(0)
+   
+    main.textContent='Maintainance Calories: '+MARINE
+
+    WFMM=[]        })
+  </script>
+  <!-- MAINTAINANCE CALORIES SCRIPT END>>>>>>>>>>>>>>>>>>-->
+</body>
+</html>
