@@ -85,7 +85,14 @@
          table{
             font-size: 16px;
          }
-       
+        #heightm{
+           width:200px
+         
+        }
+    #weightkg{
+           width:200px
+         
+        }
         .inputs{
             display: grid;
             place-items: center;
