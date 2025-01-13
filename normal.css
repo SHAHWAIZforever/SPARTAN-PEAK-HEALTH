@@ -143,10 +143,13 @@ left: 0;
 width: 100%;
 
 }
+#none{
+    display: none;
+}
 header>h2{
 margin-top: 40px;
 
-color: red;
+color: white;
 }
 .pg1{
 background: 
@@ -160,12 +163,7 @@ p{
 margin-left: 100px;
 margin-right: 100px;
 }
-#headbmi{
-background-color: grey;
-opacity: 0.8;
-backdrop-filter: blur(5px);
 
-}
 #idealll{
 color: white;
 }
