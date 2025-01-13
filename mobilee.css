@@ -15,6 +15,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin-bottom: 100px;
+    }
+    #none{
+        display: block;
     }
     .pg1{
         width: 100vw;
@@ -60,8 +64,8 @@
             color: white;
             margin-left:10px;
             position: absolute;
-            top: 68.5%;
-            left: 110px;
+            top: 35.5%;
+            left: 140px;
         }
         
         th, td {
@@ -85,14 +89,6 @@
          table{
             font-size: 16px;
          }
-        #heightm{
-           width:200px
-         
-        }
-    #weightkg{
-           width:200px
-         
-        }
         .inputs{
             display: grid;
             place-items: center;
